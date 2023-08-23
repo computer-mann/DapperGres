@@ -1,0 +1,21 @@
+/*create table weather(
+	city varchar(80),
+	temp_lo int,
+	temp_hi int,  
+	precip	real,   --precipitation
+	date    date
+);
+
+CREATE TABLE cities (	
+name varchar(80),
+location point
+);*/
+
+-- INSERT INTO weather (date, city, temp_hi, temp_lo)
+-- VALUES ('1994-11-29', 'Hayward', 54, 37);
+
+-- INSERT INTO weather (city, temp_lo, temp_hi, precip, date)
+-- VALUES ('San Francisco', 43, 57, 0.0, '1994-11-29');
+
+--select * from weather
+-- delete from weather where temp_hi=54

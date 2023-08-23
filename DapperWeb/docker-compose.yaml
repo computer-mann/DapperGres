@@ -1,0 +1,13 @@
+version: '3'
+services:
+  dockerpostgres:
+    image: postgres:15.4
+    restart: always
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: cacctuccjacc
+      POSTGRES_PASSWORD: Klop9090
+    volumes:
+      - ./master/data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
